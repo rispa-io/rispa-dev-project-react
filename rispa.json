@@ -1,0 +1,46 @@
+{
+  "mode": "dev",
+  "pluginsPath": "./packages",
+  "plugins": [
+    {
+      "name": "rispa-core",
+      "remote": "https://github.com/rispa-io/rispa-core.git"
+    },
+    {
+      "name": "rispa-webpack",
+      "remote": "https://github.com/rispa-io/rispa-webpack.git"
+    },
+    {
+      "name": "rispa-config",
+      "remote": "https://github.com/rispa-io/rispa-config.git"
+    },
+    {
+      "name": "rispa-webpack-javascript",
+      "remote": "https://github.com/rispa-io/rispa-webpack-javascript.git"
+    },
+    {
+      "name": "rispa-routes",
+      "remote": "https://github.com/rispa-io/rispa-routes.git"
+    },
+    {
+      "name": "rispa-client",
+      "remote": "https://github.com/rispa-io/rispa-client.git"
+    },
+    {
+      "name": "rispa-redux",
+      "remote": "https://github.com/rispa-io/rispa-redux.git"
+    },
+    {
+      "name": "rispa-render-server",
+      "remote": "https://github.com/rispa-io/rispa-render-server.git"
+    },
+    {
+      "name": "rispa-server",
+      "remote": "https://github.com/rispa-io/rispa-server.git"
+    },
+    {
+      "name": "rispa-babel",
+      "remote": "https://github.com/rispa-io/rispa-babel.git"
+    }
+  ]
+}
