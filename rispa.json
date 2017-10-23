@@ -41,6 +41,11 @@
     {
       "name": "rispa-babel",
       "remote": "https://github.com/rispa-io/rispa-babel.git"
+    },
+    {
+      "name": "@rispa/ui-kit",
+      "ref": "stable",
+      "dependency": true
     }
   ]
 }
