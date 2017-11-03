@@ -43,11 +43,6 @@
       "remote": "https://github.com/rispa-io/rispa-babel.git"
     },
     {
-      "name": "@rispa/ui-kit",
-      "ref": "stable",
-      "dependency": true
-    },
-    {
       "name": "rispa-react-config",
       "remote": "https://github.com/rispa-io/rispa-react-config.git"
     }

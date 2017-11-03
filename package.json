@@ -5,14 +5,11 @@
   "author": "Dmitry Petrov <dvpetrov.main@gmail.com>",
   "private": true,
   "devDependencies": {
-    "lerna": "^2.4.0",
-    "@rispa/webpack": "^3.0.1",
-    "@rispa/cli": "https://github.com/rispa-io/rispa-cli.git",
-    "@rispa/ui-kit": "3.0.1"
+    "lerna": "^2.4.0"
   },
   "scripts": {
-    "bs": "lerna bootrstrap && ris clean-cache && ris @rispa/core build && ris @rispa/babel build && ris @rispa/config build",
-    "postinstall": "lerna bootrstrap && ris clean-cache",
+    "bs": "yarn install && ris clean-cache && ris all compile",
+    "postinstall": "ris clean-cache",
     "build": "ris webpack build",
     "start": "ris server start-dev",
     "start-client": "ris server start-dev-client"
