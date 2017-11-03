@@ -1,6 +1,3 @@
-[submodule "package/rispa-react-config"]
-	path = package/rispa-react-config
-	url = ""
 [submodule "packages/rispa-react-config"]
 	path = packages/rispa-react-config
 	url = ""
