@@ -155,20 +155,6 @@
     react-test-renderer "^15.3.1"
     read-pkg-up "^2.0.0"
 
-"@rispa/config@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@rispa/config/-/config-4.0.4.tgz#ace3eb35a1615e99b86e7b18a2e32248b180bfa1"
-  dependencies:
-    "@rispa/core" "4.0.4"
-
-"@rispa/core@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@rispa/core/-/core-4.0.4.tgz#7c18bf0b448bf95071c028a173849e8b468e8aeb"
-  dependencies:
-    debug "^2.6.6"
-    dependency-graph "0.5.0"
-    fs-extra "^3.0.1"
-
 "@rispa/eslint-config@>=3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@rispa/eslint-config/-/eslint-config-3.0.0.tgz#efa6f6146fcdb18746c7e63d9336aa9d28fdbe01"
