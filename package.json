@@ -4,12 +4,10 @@
   "repository": "https://github.com/rispa-io/rispa-dev-project-react.git",
   "author": "Dmitry Petrov <dvpetrov.main@gmail.com>",
   "private": true,
-  "devDependencies": {
-    "lerna": "^2.4.0"
-  },
+  "devDependencies": {},
   "scripts": {
-    "bs": "yarn install && ris clean-cache && ris all compile",
-    "postinstall": "ris clean-cache",
+    "bs": "yarn install",
+    "postinstall": "ris clean-cache && ris all compile",
     "build": "ris webpack build",
     "start": "ris server start-dev",
     "start-client": "ris server start-dev-client"
