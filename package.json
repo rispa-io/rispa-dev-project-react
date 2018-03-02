@@ -8,9 +8,11 @@
   "scripts": {
     "bs": "yarn install",
     "postinstall": "ris clean-cache && ris all compile",
+    "compile": "ris all compile",
     "build": "ris webpack build",
     "start": "ris server start-dev",
-    "start-client": "ris server start-dev-client"
+    "start-client": "ris server start-dev-client",
+    "start-prod": "ris server start-prod"
   },
   "workspaces": [
     "packages/*"

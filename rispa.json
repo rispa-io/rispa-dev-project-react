@@ -45,6 +45,10 @@
     {
       "name": "rispa-react-config",
       "remote": "https://github.com/rispa-io/rispa-react-config.git"
+    },
+    {
+      "name": "rispa-ui-kit",
+      "remote": "https://github.com/rispa-io/rispa-ui-kit.git"
     }
   ]
 }

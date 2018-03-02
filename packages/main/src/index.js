@@ -8,6 +8,7 @@ const loadable = context => Loadable({
 
 const createRoute = context => ({
   path: '/',
+  exact: true,
   component: loadable(context),
 })
 

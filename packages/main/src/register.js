@@ -1,20 +1,21 @@
 // import BaseComponent from './containers/BaseComponent/BaseComponent'
-// import reducer, { action } from './redux/reducer'
-// import { match } from '@rispa/redux'
+import reducer, { actionLoop } from './redux/items'
+import { match } from '@rispa/redux'
 
 import Main from './containers/Main/Main'
 
-const registerReducer = () => {
-  // store.injectReducer('reducerName', reducer)
+const registerReducer = store => {
+  store.injectReducer(reducer.KEY, reducer)
+
+  store.dispatch(actionLoop())
 }
 
-const registerWhen = () => {
-  // when(match('/'), action)
+const registerWhen = when => {
 }
 
 const registerModule = context => {
-  registerReducer(context)
-  registerWhen(context)
+  registerReducer(context.store)
+  registerWhen(context.when)
 
   return Main
 }
