@@ -1,4 +1,6 @@
 # rispa-dev-project-react
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rispa-io/rispa-dev-project-react.svg)](https://greenkeeper.io/)
 Temporally project. Will be deprecated after preset implementation was done
 
 ## Getting Started
